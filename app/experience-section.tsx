@@ -1,7 +1,7 @@
 import Experience from "./experience";
 const ExperienceSection = () => {
   return (
-    <div className="flex flex-col justify-start mb-8" id="#experience">
+    <div className="flex flex-col justify-start mb-8" id="experience">
       <div>
         <p className="text-xl text-slate-100">Experience</p>
       </div>

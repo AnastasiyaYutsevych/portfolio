@@ -28,22 +28,22 @@ const MainSection = () => {
         awesome together! 💻✨
       </p>
       <div className="navigationMenuflex text-sm font-mono text-slate-600 flex-col">
-        <Link href="#experience" className="hover:text-slate-300">
+        <a href="#experience" className="hover:text-slate-300">
           <div className="flex group flex-row content-baseline">
             <div className="flex flex-col justify-center">
               <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
             </div>
             <p>EXPERIENCE</p>
           </div>
-        </Link>
-        <Link href="#project" className="hover:text-slate-300">
+        </a>
+        <a href="#project" className="hover:text-slate-300">
           <div className="flex group flex-row content-baseline">
             <div className="flex flex-col justify-center">
               <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
             </div>
             <p>PROJECT</p>
           </div>
-        </Link>
+        </a>
       </div>
 
       <div className="socials flex flex-row self-end  justify-start pb-4 text-slate-500 transition-all">
